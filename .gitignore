@@ -1,4 +1,16 @@
-js/settings.js
-.idea
-.vscode
+# Dependencies & build output
+node_modules/
+dist/
+
+# Environment (contains the TMDB token)
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Personal notes
 note.md

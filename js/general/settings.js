@@ -1,5 +1,11 @@
-const token =
-    "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjOTk2OTA2N2EzMjE4Y2U0M2M0OTE1ODYwZmI1YTY4MSIsIm5iZiI6MTczOTg4NDM3My4yMTIsInN1YiI6IjY3YjQ4NzU1OTFkN2U2NmM2NTZkZDFmZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.6Br1nDrZmToRWUlTfdv90vyrGd0XTKU4tOu8X23lkBY";
-const key = "c9969067a3218ce43c4915860fb5a681";
+// The TMDB read access token is injected at build time by Vite from the
+// VITE_TMDB_TOKEN environment variable (see .env.example).
+const token = import.meta.env.VITE_TMDB_TOKEN;
+
+if (!token) {
+    console.error(
+        "VITE_TMDB_TOKEN is not set. Copy .env.example to .env and add your TMDB read access token."
+    );
+}
 
 export default token;

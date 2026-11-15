@@ -3,7 +3,6 @@ import {
     displayActorFocus,
     displayActorFilmography,
 } from "../display/displayActorFocus.js";
-import { mobileBarr, mobileNav } from "../general/querySelector.js";
 
 const getParameter = (key) => {
     const address = window.location.search;
@@ -25,7 +24,3 @@ if (actorId) {
 } else {
     window.location.href = "404.html";
 }
-
-mobileBarr()?.addEventListener("click", function () {
-    mobileNav().classList.toggle("open");
-});

@@ -10,9 +10,10 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+
     .banner {
         background-repeat: no-repeat;
-        background-image: url("./../img/bg.png");
+        background-image: url("../../img/bg.png");
         background-position: center;
 
         width: 100%;
@@ -23,6 +24,7 @@
         -ms-flex-pack: center;
         justify-content: center;
         background-size: cover;
+
         .content {
             width: 100%;
             display: -ms-grid;
@@ -33,9 +35,11 @@
             grid-gap: 30px;
             padding: 40px 10%;
             background-color: #0000007a;
+
             img {
                 width: 100%;
             }
+
             .right {
                 width: 68%;
 
@@ -46,6 +50,7 @@
                 .score {
                     color: white;
                 }
+
                 .top {
                     margin-bottom: 20px;
                     display: -webkit-box;
@@ -53,9 +58,11 @@
                     -webkit-box-align: center;
                     -ms-flex-align: center;
                     align-items: center;
+
                     h1 {
                         font-size: 1.5em;
                     }
+
                     .score {
                         margin-right: 20px;
                         height: 63px;
@@ -82,16 +89,19 @@
             }
         }
     }
+
     .casting {
         width: 83%;
         max-width: 1380px;
         margin-top: 40px;
         margin-bottom: 100px;
+
         h2 {
             margin-bottom: 40px;
             font-size: 36px;
             font-weight: 400;
         }
+
         &.actors {
             display: -webkit-box;
             display: -ms-flexbox;
@@ -102,8 +112,10 @@
             -ms-flex-wrap: wrap;
             flex-wrap: wrap;
             gap: 30px;
+
             .actor {
                 margin-bottom: 30px;
+
                 img {
                     -webkit-transition: all 0.3s;
                     transition: all 0.3s;
@@ -132,7 +144,8 @@
         .trailer-container {
             position: relative;
             width: 100%;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            padding-bottom: 56.25%;
+            /* 16:9 aspect ratio */
 
             iframe {
                 position: absolute;
