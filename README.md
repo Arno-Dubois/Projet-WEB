@@ -2,7 +2,7 @@
 
 A responsive website to browse trending movies, TV shows and actors, powered by [The Movie Database (TMDB) API](https://developer.themoviedb.org/).
 
-**🔗 Live demo:** https://arno-dubois.github.io/Porjet-WEB/
+**🔗 Live demo:** https://arno-dubois.github.io/Projet-WEB/
 
 ![Home page](docs/screenshot.png)
 
